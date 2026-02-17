@@ -1,15 +1,14 @@
-# egyszeru-oled-kijelzo-teszt
-Ez egy egyszerű, SSD1306 kijelző teszt kód 0.93 inches változathoz.
+This is a simple display test code for the 0.93-inch version of the SSD1306.
 
-Én viszont U8g2 könyvtárat használok (nem SSD1306-ot mivel több vele a gond) 
+However, I am using the U8g2 library (instead of the standard SSD1306 library, as it tends to be more problematic).
 
-Szükséges könyvtárak 
+Required Libraries
+U8g2 by oliver
 
--U8g2 by oliver
+Hardware Requirements
+0.93-inch OLED display (Note: This code works with other display sizes as well, but you will need to adjust the dimensions within the code.)
 
-Kell hozzá egy: 
+A microcontroller (ESP32, Raspberry Pi Pico, etc.)
 
--0.93 inches OLED kijelző (Ez a kód más méretű kijelzőn is müködik viszont a méreteket át kell írni a kódban.)
--Egy microcontroller (ESP32,Raspberry pi pico, stb)
-
-Miután megvan minden, csak töltsd fel a kódot és megjelennik a szöveg, akár át is irhatod amire szeretnéd.
+Instructions
+Once you have everything ready, simply upload the code and the text will appear. You can also modify the text to say whatever you’d like.
